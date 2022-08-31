@@ -1,0 +1,88 @@
+{
+  "events": [
+    {
+      "component": "TweetCard",
+      "startMs": 7500,
+      "endMs": 14000,
+      "size": "medium",
+      "position": "top-left",
+      "componentProps": {
+        "avatarSrc": "https://fvp-files-to-share.s3.eu-west-1.amazonaws.com/woman-3289372_640.jpg",
+        "avatarAlt": "Woman",
+        "name": "Author name",
+        "account": "@tweetAccount",
+        "text": "That was amazing!"
+      }
+    },
+    {
+      "component": "AnimationGif",
+      "startMs": 20000,
+      "endMs": 23000,
+      "size": "small",
+      "position": "center-center",
+      "componentProps": {
+        "gifSrc": "https://media.giphy.com/media/dSetRSJcR3PGqkvjRg/giphy.gif",
+        "gifAlt": "Goal"
+      }
+    },
+    {
+      "component": "PlayerCard",
+      "startMs": 35000,
+      "endMs": 41000,
+      "size": "large",
+      "position": "center-right",
+      "componentProps": {
+        "imgSrc": "https://fvp-files-to-share.s3.eu-west-1.amazonaws.com/avatar-3637561_1280.png",
+        "imgAlt": "Player",
+        "countryImgSrc": "https://fvp-files-to-share.s3.eu-west-1.amazonaws.com/Flag_of_Portugal.svg",
+        "countryImgAlt": "Portugal",
+        "number": "#23",
+        "name": "Some Player",
+        "attributes": [
+          {
+            "attribute": "Games",
+            "value": "12"
+          },
+          {
+            "attribute": "Kills",
+            "value": "3"
+          },
+          {
+            "attribute": "Another",
+            "value": "41"
+          }
+        ]
+      }
+    },
+    {
+      "component": "TweetCard",
+      "startMs": 42000,
+      "endMs": 46000,
+      "size": "medium",
+      "position": "top-right",
+      "componentProps": {
+        "avatarSrc": "https://fvp-files-to-share.s3.eu-west-1.amazonaws.com/woman-3289372_640.jpg",
+        "avatarAlt": "Woman",
+        "name": "Follower 1",
+        "account": "@follower1",
+        "text": "Let's go, you have to win!"
+      }
+    },
+    {
+      "component": "ImageInteractionCard",
+      "startMs": 42000,
+      "endMs": 46000,
+      "size": "medium",
+      "position": "top-right",
+      "componentProps": {
+        "imgSrc": "https://fvp-files-to-share.s3.eu-west-1.amazonaws.com/woman-3289372_640.jpg",
+        "imgHeight": 150,
+        "imgAlt": "Follower 1",
+        "title": "@follower1",
+        "text": "Let's go, you have to win!",
+        "buttonText": "Test",
+        "buttonLink": "https://www.google.es"
+      }
+    }
+  ]
+}
