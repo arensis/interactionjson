@@ -67,8 +67,7 @@
         "account": "@follower1",
         "text": "Let's go, you have to win!"
       }
-    }
-    
+    },
     {
       "component": "ImageInteractionCard",
       "startMs": 42000,
